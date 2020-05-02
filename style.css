@@ -1,0 +1,50 @@
+/*FONTS GO HERE*/
+
+.learningbg{
+    background: url(images/learningbg.jpg)no-repeat center center;
+    background-size: cover;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.coachingbox{ 
+    background-color: #c1d704; 
+/*    width: 290px;
+    height: 430px; */
+    
+}
+
+.resourcesbox{
+    background-color: #ee3836;
+    background-clip: border-box;
+    border-left: 10px;
+/*    width: 290px;
+    height: 430px;*/
+    
+}
+
+img{
+    margin:auto;
+}
+
+.Cicon{
+    padding-top: 55px;
+    padding-bottom: 30px;
+}
+
+.Ricon{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.btn-primary{
+    border-radius: 12px;
+    width: 20%;
+    color: black;
+    background-color: white;
+    border-color: white;
+    
+}
+
+
+
