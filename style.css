@@ -1,9 +1,16 @@
 /*FONTS GO HERE*/
-.navbar{
-    background-color: white;
+
+h4{
+font-size:50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 800;
 }
+
+
+
 .navbar{
     padding-top:10px;
+    background-color: white;
 }
 .nav{
     padding-top: 10px;
@@ -13,7 +20,7 @@
 .herobg{
     background: url(images/header.jpg);
     background-size: cover;
-    width:100%;
+    width:100%
     position: relative;
 }
 
@@ -45,11 +52,39 @@
     padding-top: 60px;
 }
 
+.blocker {
+    width: 400px;
+    height: 2px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.insight-text {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 16px;
+    text-align: left;
+    line-height: 2em;
+    
+}
+.insightbg {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-right: 0px;
+}
+.insight-small-title {
+    font-size: 24px;
+    text-align: left;
+    margin-left: 40px;
+}
+
 .learningbg{
     background: url(images/learningbg.jpg)no-repeat center center;
     background-size: cover;
     padding-top: 55px;
     padding-bottom: 55px;
+    width: 100%;
 }
 
 .coachingbox{
@@ -93,9 +128,13 @@ img{
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 12px;
-    width: 200px;
+    width: 50%;
     color: black;
     background-color: white;
     border-color: white;
     
+}
+
+footer {
+  display: block;
 }
