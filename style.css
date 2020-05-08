@@ -86,6 +86,13 @@ font-weight: 700;
     background-color: white;
     border-color: white;
 }
+.title{ 
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 100;
+
+}
+
 
 .learningbg{
     padding:0%;
@@ -97,14 +104,17 @@ font-weight: 700;
     background-image:url(images/learningbgl.jpg);
     background-size: cover;
     width:100%;
-    padding:10%;
+    padding:20%;
+    padding-top: 25%;
+
 }
 
 .learningbg2{
     background-image:url(images/learningbgr.jpg); 
     background-size: cover;
     width:100%;
-    padding:10%;
+    padding:20%;
+    padding-top: 25%;
 }
 
 .half{
