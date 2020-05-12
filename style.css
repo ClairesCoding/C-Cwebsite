@@ -1,9 +1,18 @@
 /*FONTS GO HERE*/
-.navbar{
-    background-color: white;
+
+h1{
+    font-size: 
 }
+
+h5{
+font-size:50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+}
+
 .navbar{
     padding-top:10px;
+    background-color: white;
 }
 .nav{
     padding-top: 10px;
@@ -13,7 +22,7 @@
 .herobg{
     background: url(images/header.jpg);
     background-size: cover;
-    width:100%
+    width:100%;
     position: relative;
 }
 
@@ -45,18 +54,79 @@
     padding-top: 60px;
 }
 
-.learningbg{
-    background: url(images/learningbg.jpg)no-repeat center center;
-    background-size: cover;
-    padding-top: 55px;
-    padding-bottom: 55px;
+.blocker {
+    width: 310px;
+    height: 2px;
+    background-color: greenyellow;
+    margin-bottom: 40px;
 }
 
+.insight-text {
+    font-size: 16px;
+    text-align: left;
+    line-height: 2em;
+    margin-right: 150px;
+}
+.insightbg {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    margin-right: 0px;
+}
+.insight-small-title {
+    font-size: 24px;
+    text-align: left;
+}
+
+.btn-default{
+        display: block;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 50%;
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+.title{ 
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 100;
+    padding-top: 2%;
+
+}
+
+
+.learningbg{
+    padding:0%;
+    margin:0%;
+    width:100%;
+}
+
+.learningbg1{
+    background-image:url(images/learningbgl.jpg);
+    background-size: cover;
+    width:100%;
+    padding:20%;
+    padding-top: 25%;
+
+}
+
+.learningbg2{
+    background-image:url(images/learningbgr.jpg); 
+    background-size: cover;
+    width:100%;
+    padding:20%;
+    padding-top: 25%;
+}
+
+.half{
+    padding: 0%;
+    margin: 0%;
+}
+
+
 .coachingbox{
-    
-    padding-left: 20px;
-    padding-right: 20px;
-   margin-left: 12.5%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #c1d704;
     width: 290px;
     height: 430px; 
@@ -65,10 +135,8 @@
 
 .resourcesbox{
     background-color: #ee3836;
-    margin-left: 25%;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 290px;
     height: 430px;
     
@@ -93,9 +161,13 @@ img{
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 12px;
-    width: 50%;
+    width: 200px;
     color: black;
     background-color: white;
     border-color: white;
     
+}
+
+footer {
+  display: block;
 }
