@@ -23,14 +23,6 @@ font-weight: 700;
     background: url(images/header.jpg);
     background-size: cover;
     width:100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    height:820px;
->>>>>>> parent of 198ecd1... Update style.css
-=======
-    height:820px;
->>>>>>> parent of 198ecd1... Update style.css
     position: relative;
     
 }
@@ -45,8 +37,6 @@ font-weight: 700;
     opacity: 0.6;
     background-size: cover;
     width: 100%;
-    background-color: white;
-    opacity: 0.6;
     
 }
 
@@ -106,16 +96,6 @@ font-weight: 700;
 
 }
 
-<<<<<<< HEAD
-
-.title{ 
-    margin-bottom: -100px;
-    position: relative;
-    z-index: 100;
-    padding-top: 2%;
-}
-=======
->>>>>>> parent of 198ecd1... Update style.css
 
 .learningbg{
     padding:0%;
@@ -126,54 +106,31 @@ font-weight: 700;
 .learningbg1{
     background-image:url(images/learningbgl.jpg);
     background-size: cover;
-    width:100%;
     padding:20%;
     padding-top: 25%;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
 
 .learningbg2{
     background-image:url(images/learningbgr.jpg);
     background-size: cover;
-    width:100%;
-    padding:0%;
-    padding-top: 25%;
-=======
->>>>>>> parent of 198ecd1... Update style.css
-}
-
-.learningbg2{
-=======
-}
-
-.learningbg2{
->>>>>>> parent of 198ecd1... Update style.css
-    background-image:url(images/learningbgr.jpg); 
-    background-size: cover;
-    width:100%;
     padding:20%;
     padding-top: 25%;
+
 }
 
 .half{
     padding: 0%;
     margin: 0%;
+    padding-bottom: 55px;
+    padding-top: 12.5%;
 }
-
 
 .coachingbox{
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
-=======
->>>>>>> parent of 198ecd1... Update style.css
-=======
->>>>>>> parent of 198ecd1... Update style.css
     background-color: #c1d704;
     width: 290px;
     height: 430px; 
@@ -184,25 +141,11 @@ font-weight: 700;
     background-color: #ee3836;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
-=======
->>>>>>> parent of 198ecd1... Update style.css
-=======
->>>>>>> parent of 198ecd1... Update style.css
     width: 290px;
     height: 430px;
     
-}
-
-.half{
-    padding: 0%;
-    margin: 0%;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    width: 100%;
 }
 
 img{
@@ -233,29 +176,25 @@ img{
 
 .btn-primary:hover{
     border-color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
+    border: 2px solid;
+    color: white;
+    background-color: transparent;
+
 }
 .footer{
-display: block;
-  position: static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #50c38b;
-  color: white;
-  text-align: center;
-=======
-=======
->>>>>>> parent of 198ecd1... Update style.css
+    display: block;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #50c38b;
+    color: white;
+    text-align: center;
     border: 2px solid;
     color: white;
     background-color: transparent;
     
-<<<<<<< HEAD
->>>>>>> parent of 198ecd1... Update style.css
-=======
->>>>>>> parent of 198ecd1... Update style.css
+
 }
 
 footer {
