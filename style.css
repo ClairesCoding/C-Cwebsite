@@ -51,6 +51,8 @@ h7{
     background: url(images/s_1_bg.jpg);
     background-size: cover;
     width: 100%;
+    background-color: white;
+    opacity: 0.6;
     
 }
 
@@ -94,7 +96,7 @@ h7{
 }
 
 .btn-default{
-        display: block;
+    display: block;
     margin-top: 20px;
     border-radius: 12px;
     width: 50%;
@@ -103,19 +105,41 @@ h7{
     border-color: white;
 }
 
+.title{ 
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 100;
+    padding-top: 2%;
+}
+
 .learningbg{
-    background: url(images/learningbg.jpg)no-repeat center center;
+    padding:0%;
+    margin:0%;
+    width:100%;
+}
+
+.learningbg1{
+    background-image:url(images/learningbgl.jpg);
     background-size: cover;
-    padding-top: 55px;
-    padding-bottom: 55px;
-    width: 100%;
+    width:100%;
+    padding:20%;
+    padding-top: 25%;
+
+}
+
+.learningbg2{
+    background-image:url(images/learningbgr.jpg);
+    background-size: cover;
+    width:100%;
+    padding:0%;
+    padding-top: 25%;
 }
 
 .coachingbox{
-    
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
-    margin-left: 12.5%;
     background-color: #c1d704;
     width: 290px;
     height: 430px; 
@@ -124,13 +148,21 @@ h7{
 
 .resourcesbox{
     background-color: #ee3836;
-    margin-left: 25%;
-    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 20px;
     padding-right: 20px;
     width: 290px;
     height: 430px;
     
+}
+
+.half{
+    padding: 0%;
+    margin: 0%;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    width: 100%;
 }
 
 img{
@@ -169,6 +201,7 @@ img{
     border-color: white;
 }
 .footer{
+display: block;
   position: static;
   left: 0;
   bottom: 0;
