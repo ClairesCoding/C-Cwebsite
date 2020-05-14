@@ -24,6 +24,10 @@ font-weight: 700;
     background-size: cover;
     width:100%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    height:820px;
+>>>>>>> parent of 198ecd1... Update style.css
 =======
     height:820px;
 >>>>>>> parent of 198ecd1... Update style.css
@@ -102,6 +106,7 @@ font-weight: 700;
 
 }
 
+<<<<<<< HEAD
 
 .title{ 
     margin-bottom: -100px;
@@ -109,6 +114,8 @@ font-weight: 700;
     z-index: 100;
     padding-top: 2%;
 }
+=======
+>>>>>>> parent of 198ecd1... Update style.css
 
 .learningbg{
     padding:0%;
@@ -124,6 +131,7 @@ font-weight: 700;
     padding-top: 25%;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 
 .learningbg2{
@@ -137,6 +145,11 @@ font-weight: 700;
 }
 
 .learningbg2{
+=======
+}
+
+.learningbg2{
+>>>>>>> parent of 198ecd1... Update style.css
     background-image:url(images/learningbgr.jpg); 
     background-size: cover;
     width:100%;
@@ -154,8 +167,11 @@ font-weight: 700;
     margin-left: auto;
     margin-right: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
+=======
+>>>>>>> parent of 198ecd1... Update style.css
 =======
 >>>>>>> parent of 198ecd1... Update style.css
     background-color: #c1d704;
@@ -169,8 +185,11 @@ font-weight: 700;
     margin-left: auto;
     margin-right: auto;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
+=======
+>>>>>>> parent of 198ecd1... Update style.css
 =======
 >>>>>>> parent of 198ecd1... Update style.css
     width: 290px;
@@ -215,6 +234,7 @@ img{
 .btn-primary:hover{
     border-color: white;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 .footer{
 display: block;
@@ -226,10 +246,15 @@ display: block;
   color: white;
   text-align: center;
 =======
+=======
+>>>>>>> parent of 198ecd1... Update style.css
     border: 2px solid;
     color: white;
     background-color: transparent;
     
+<<<<<<< HEAD
+>>>>>>> parent of 198ecd1... Update style.css
+=======
 >>>>>>> parent of 198ecd1... Update style.css
 }
 
