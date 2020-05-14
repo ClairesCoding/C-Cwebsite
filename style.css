@@ -168,6 +168,14 @@ img{
     
 }
 
+.btn-primary:hover{
+    border-color: white;
+    border: 2px solid;
+    color: white;
+    background-color: transparent;
+    
+}
+
 footer {
   display: block;
 }
