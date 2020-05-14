@@ -10,21 +10,6 @@ font-family: 'Montserrat', sans-serif;
 font-weight: 700;
 }
 
-h6{
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 700;
-    margin-left: 24%
-}
-h7{
-    font-size: 12px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-weight: 700;
-    margin-left: 12.5%
-}
-
 .navbar{
     padding-top:10px;
     background-color: white;
@@ -38,6 +23,10 @@ h7{
     background: url(images/header.jpg);
     background-size: cover;
     width:100%;
+<<<<<<< HEAD
+=======
+    height:820px;
+>>>>>>> parent of 198ecd1... Update style.css
     position: relative;
     
 }
@@ -48,7 +37,8 @@ h7{
 }
 
 .connectorsbg{
-    background: url(images/s_1_bg.jpg);
+    background-color: white;
+    opacity: 0.6;
     background-size: cover;
     width: 100%;
     background-color: white;
@@ -101,9 +91,17 @@ h7{
     border-radius: 12px;
     width: 50%;
     color: black;
-    background-color: #d5df29;
+    background-color: white;
     border-color: white;
 }
+.title{ 
+    margin-bottom: -100px;
+    position: relative;
+    z-index: 100;
+    padding-top: 2%;
+
+}
+
 
 .title{ 
     margin-bottom: -100px;
@@ -125,6 +123,7 @@ h7{
     padding:20%;
     padding-top: 25%;
 
+<<<<<<< HEAD
 }
 
 .learningbg2{
@@ -133,13 +132,32 @@ h7{
     width:100%;
     padding:0%;
     padding-top: 25%;
+=======
+>>>>>>> parent of 198ecd1... Update style.css
 }
+
+.learningbg2{
+    background-image:url(images/learningbgr.jpg); 
+    background-size: cover;
+    width:100%;
+    padding:20%;
+    padding-top: 25%;
+}
+
+.half{
+    padding: 0%;
+    margin: 0%;
+}
+
 
 .coachingbox{
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
+=======
+>>>>>>> parent of 198ecd1... Update style.css
     background-color: #c1d704;
     width: 290px;
     height: 430px; 
@@ -150,8 +168,11 @@ h7{
     background-color: #ee3836;
     margin-left: auto;
     margin-right: auto;
+<<<<<<< HEAD
     padding-left: 20px;
     padding-right: 20px;
+=======
+>>>>>>> parent of 198ecd1... Update style.css
     width: 290px;
     height: 430px;
     
@@ -190,15 +211,10 @@ img{
     border-color: white;
     
 }
-.btn-primary2{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    border-radius: 12px;
-    width: 200px;
-    color: black;
-    background-color: #d5df29;
+
+.btn-primary:hover{
     border-color: white;
+<<<<<<< HEAD
 }
 .footer{
 display: block;
@@ -209,9 +225,14 @@ display: block;
   background-color: #50c38b;
   color: white;
   text-align: center;
+=======
+    border: 2px solid;
+    color: white;
+    background-color: transparent;
+    
+>>>>>>> parent of 198ecd1... Update style.css
 }
 
-.footer-image{
-    width:20%;
-    margin-left:24%;
+footer {
+  display: block;
 }
