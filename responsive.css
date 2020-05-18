@@ -4,4 +4,34 @@
     font-size: 200%;
     }
     
+    .title{
+        margin-bottom: -50px;
+    }
+    
 }
+
+@media only screen and (max-width: 320px) {
+    
+    .coachingbox {
+        
+        height: 320px;
+    }
+    
+    .Cicon{
+        padding-top: 10%;
+    }
+    
+    .Ricon{
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    
+    .half{
+        padding-top: 20%;
+    }
+    
+    .resourcesbox{
+        height: 320px;
+    }
+}
+
