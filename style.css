@@ -102,7 +102,16 @@ h7{
     width: 50%;
     color: black;
     background-color: #d5df29;
+    border-color:#d5df29; 
 }
+
+.btn-default:hover{
+    border-color: #d5df29;
+    border: 2px solid;
+    color: #d5df29;
+    background-color: transparent;
+}
+
 .title{ 
     margin-bottom: -100px;
     position: relative;
@@ -225,4 +234,13 @@ img{
 .footer-image{
     width:20%;
     margin-left:24%;
+}
+
+/*CONNECTORS PAGE*/
+.connectorshead{
+    padding-bottom: 5%;
+}
+
+.listing{
+    padding:5%;
 }
