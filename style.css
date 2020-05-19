@@ -249,3 +249,29 @@ img{
 .listing{
     padding:5%;
 }
+
+/*ABOUT PAGE*/
+.small-headerbg{
+    background-size: cover;
+    width:100%;
+    position: relative;
+}
+.about-text{
+    text-align: center;
+    margin: auto;
+        margin-left: 20.5%;
+    margin-right: 20.5%;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 22px;
+}
+.blocker2{
+    width: 310px;
+    height: 2px;
+    background-color: greenyellow;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.directorsbg{
+    background-image:url(images/about.jpg);
+    background-size: cover;
+}
