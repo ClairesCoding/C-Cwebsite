@@ -28,6 +28,7 @@ h7{
 .navbar{
     padding-top:10px;
     background-color: white;
+    font-family: 'Montserrat', sans-serif; 
 }
 .nav{
     padding-top: 10px;
@@ -39,6 +40,7 @@ h7{
     background-size: cover;
     width:100%;
     position: relative;
+    font-family: 'Montserrat', sans-serif; 
     
 }
 
@@ -89,6 +91,7 @@ h7{
     padding-top: 55px;
     padding-bottom: 55px;
     margin-right: 0px;
+    font-family: 'Montserrat', sans-serif; 
 }
 .insight-small-title {
     font-size: 24px;
@@ -116,6 +119,7 @@ h7{
     padding:0%;
     margin:0%;
     width:100%;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .learningbg1{
@@ -220,6 +224,7 @@ img{
   background-color: #50c38b;
   color: white;
   text-align: center;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .footer-image{
