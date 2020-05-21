@@ -10,6 +10,7 @@
 }
 @media only screen and (max-width: 900px) {
     
+    
     h5 {
     font-size: 300%;
     }
@@ -22,15 +23,92 @@
 
 @media only screen and (max-width: 768px) {
     
+    .insightbg{
+        margin: auto;
+        text-align:center;
+    }
+    
+    .insight-small-title{
+        text-align:center;   
+    }
+    
+    .blocker{
+        margin:auto;
+    }
+    
+    .insight-text{
+       text-align: center;
+        margin: 0%;
+    }
+    
+    .text-left{
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .btn-default{
+    margin: 0 auto;
+    }
+    
+    
     .title{
         margin-bottom: -50px;
     }
+    
+    btn-default{
+        margin: 0 auto;
+    }
+    
+    h1{
+        font-size: 250%;
+    }
+    
+    h2{
+        font-size: 290%;
+    }
+    
+    p1{
+        font-size: 100%;
+    }
+    
+    h3{
+        font-size: 150%;
+    }
+    
+    h4{
+        font-size: 160%;
+    }
+    
+    p2{
+        font-size: 90%;
+        margin: 10%;
+    }
+    
+    .involvedbox {
+        height: 220px;
+        padding-top: 5%;
+    }
+    
+    .connectorsbox {
+        height: 220px;
+        padding-top: 5%;
+    }
+    
+    .header-text {
+    padding-top: 10%;
+    padding-bottom: 15%;
+    
+    
     
     
 }
 
 
 @media only screen and (max-width: 320px) {
+    
+    .herobg{
+        background-position: center right 32%;
+    }
     
     .title{
         margin-bottom: -70px;
