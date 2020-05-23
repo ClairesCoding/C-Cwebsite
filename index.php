@@ -2,11 +2,13 @@
 
 <!--IDK HOW MUCH OF THE HEADER TO PUT IN YET-->
 
+<!--NEW SRC SERVER: http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/-->
+
 <!--INSIGHT SECTION-->
     <section class="container-fluid text-left">
     <div class="row">
         <div class="col-md-8">
-            <img class="img-responsive" src="images/insight.jpg"> <!--ADD NEW SRC-->
+            <img class="img-responsive" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/insight.jpg">
         </div>
          <div class="col-md-4 insightbg text-center">
             <h5 class= "text-left">INSIGHT</h5>
@@ -27,7 +29,7 @@
       <div class="col-sm-6 text-center learningbg1 half">
             
                     <div class="coachingbox">
-                        <img class="img-responsive Cicon" alt="coaching icon" src="images/coachingicon.jpg"> <!--ADD NEW SRC-->
+                        <img class="img-responsive Cicon" alt="coaching icon" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/coachingicon.jpg"> 
                         <p><br> Increase your skills and knowledge with our coaching sessions</p>
                         <button type="button" class="btn btn-primary">Coaching</button>
                     </div>
@@ -36,7 +38,7 @@
          <div class="col-sm-6 text-center learningbg2 half">
              
                 <div class="resourcesbox">
-                    <img class="img-responsive Ricon" alt="resource icon" src="images/resources.jpg"> <!--ADD NEW SRC-->
+                    <img class="img-responsive Ricon" alt="resource icon" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/resources.jpg"> 
                     <p>Educate yourself about training and management for NFPs</p>
                     <button type="button" class="btn btn-primary">Resources</button>
                 </div>
