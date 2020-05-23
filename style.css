@@ -305,6 +305,20 @@ img{
 .footer-image{
     width:20%;
     margin-left:24%;
+   
+}
+.footer-small{
+    margin: 0;
+    display: block;
+    padding: 1%;
+    color: grey;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+
+.icons{
+    margin-left:20%
 }
 
 /*CONNECTORS PAGE*/
