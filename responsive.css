@@ -29,16 +29,18 @@
     }
     
     .insight-small-title{
-        text-align:center;   
+        text-align:center;
+        margin: 2%;
     }
     
     .blocker{
         margin:auto;
+        
     }
     
     .insight-text{
        text-align: center;
-        margin: 0%;
+        margin: 5%;
     }
     
     .text-left{
