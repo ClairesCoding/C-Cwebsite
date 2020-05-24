@@ -305,6 +305,8 @@ img{
 .footer-image{
     width:20%;
     margin-left:24%;
+    margin-top: 1%;
+     margin-bottom: 1%;
    
 }
 .footer-small{
@@ -317,6 +319,7 @@ img{
 a{
     color: grey;
     padding: 4px;
+    margin-top: 2%;
 }
 
 
