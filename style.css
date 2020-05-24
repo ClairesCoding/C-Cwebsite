@@ -312,8 +312,11 @@ img{
     display: block;
     padding: 1%;
     color: grey;
-    text-decoration: none;
-    padding: 10px 15px;
+    padding: 15px 15px;
+}
+a{
+    color: grey;
+    padding: 4px;
 }
 
 
