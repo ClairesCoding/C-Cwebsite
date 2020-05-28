@@ -2,7 +2,7 @@
 <footer class="footer">
   <div class="container">
     <div class="col-md-6 text-left">
-<p> <?php bloginfo('name'); ?></p>
+<p><?php bloginfo('name'); ?></p>
       <h6>CONNECT</h6>
         <img class="icons" alt="facebook" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/facebook-icon.png" alt="“facebook”">
         <img  alt="instagram" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/instagram-icon.png" alt="“instagram”">
