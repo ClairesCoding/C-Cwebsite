@@ -86,6 +86,12 @@ h7{
 .nav{
     padding-top: 10px;
 }
+.navbar-inverse{
+        border-color: white;
+}
+.logo{
+    width: 60%;
+}
 
 
 .herobg{
@@ -317,6 +323,7 @@ img{
     margin-left:24%;
     margin-top: 1%;
      margin-bottom: 1%;
+    width: 15%;
    
 }
 .footer-small{
