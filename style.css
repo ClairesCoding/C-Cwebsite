@@ -89,6 +89,10 @@ h7{
 .navbar-inverse{
         border-color: white;
 }
+.navbar-brand {
+    padding: 0px;
+    
+}
 .logo{
     width: 60%;
 }
