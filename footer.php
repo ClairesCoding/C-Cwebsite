@@ -19,7 +19,7 @@
     </div>
   </div>
     <div class="col-md-6 text-left">
-        <img class="footer-image" alt="logo" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/logo.JPG">
+        <img class="footer-image" alt="logo" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/logo.jpg">
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="#home" class="active">Home</a>
