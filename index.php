@@ -8,7 +8,7 @@
     <section class="container-fluid text-left">
     <div class="row">
         <div class="col-md-8">
-            <img class="img-responsive" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/insight.jpg">
+            <img class="img-responsive" alt="communication-graphic" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/insight.jpg">
         </div>
          <div class="col-md-4 insightbg text-center">
             <h5 class= "text-left">INSIGHT</h5>
