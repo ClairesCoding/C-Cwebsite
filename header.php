@@ -56,7 +56,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#"></a>
-        <img class="logo" alt="logo" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/logo.JPG">
+        <img class="logo" alt="logo" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/logo.jpg">
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
