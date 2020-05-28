@@ -19,7 +19,7 @@
     </div>
   </div>
     <div class="col-md-6 text-left">
-        <img class="footer-image" src="images/logo.png">
+        <img class="footer-image" src="images/logo.JPG">
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="#home" class="active">Home</a>
