@@ -2,11 +2,10 @@
 <footer class="footer">
   <div class="container">
     <div class="col-md-6 text-left">
-<p><?php bloginfo('name'); ?></p>
       <h6>CONNECT</h6>
-        <img class="icons" alt="facebook" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/facebook-icon.png" alt="“facebook”">
-        <img  alt="instagram" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/instagram-icon.png" alt="“instagram”">
-        <img  alt="twitter"src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/twitter-icon.png" alt="“twitter”">
+        <img class="icons" alt="facebook" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/facebook-icon.png">
+        <img  alt="instagram" src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/instagram-icon.png">
+        <img  alt="twitter"src="http://206.189.45.97/~mesh10/wp-content/themes/C-Cwebsite/images/twitter-icon.png">
     </div>
     <div class="col-md-6 text-left">
         <h7>CONTACT US</h7>
