@@ -86,11 +86,14 @@ h7{
 }
 .navbar-inverse{
         border-color: white;
+        
 }
 .navbar-brand {
-    padding: 0px;
+
+    float:left;
     
 }
+
 
 .navbar-toggle:hover {
     background-color: darkgrey;
@@ -101,7 +104,7 @@ h7{
 }
 
 .logo{
-    width: 60%;
+    width: 20%;
 }
 
 
