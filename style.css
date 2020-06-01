@@ -99,6 +99,10 @@ h7{
     border-color: lightgray;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: black;
+}
+
 
 .navbar-toggle:hover {
     background-color: darkgrey;
