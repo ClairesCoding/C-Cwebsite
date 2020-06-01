@@ -91,6 +91,15 @@ h7{
     padding: 0px;
     
 }
+
+.navbar-toggle:hover {
+    background-color: darkgrey;
+}
+
+.navbar-toggle {
+    background-color: lightgrey;
+}
+
 .logo{
     width: 60%;
 }
