@@ -19,9 +19,13 @@
 
 @media only screen and (max-width: 768px) {
     
+    .herobg{
+        background-position: -300px;
+    }
+    
     .logo{
     width: 20%;
-}
+    }
     
     .insightbg{
         margin: auto;
@@ -123,7 +127,27 @@
 }
 
 
+@media only screen and (max-width: 600px){
+    
+    .herobg{
+        background-position: -400px;
+    }
+    
+    .header-text{
+        text-align: left;
+        padding-left: 10%;
+    }
+    
+    .btn-primary3{
+        margin-left: 0px;
+    }
+}
+
+
+
 @media only screen and (max-width: 320px) {
+    
+   
     
     .herobg{
         background-position: center right 32%;
