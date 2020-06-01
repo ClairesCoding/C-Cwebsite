@@ -91,12 +91,18 @@ h7{
 .navbar-brand {
 
     float:left;
+    padding: 0px;
     
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: lightgray;
 }
 
 
 .navbar-toggle:hover {
     background-color: darkgrey;
+    border-color: white;
 }
 
 .navbar-toggle {
