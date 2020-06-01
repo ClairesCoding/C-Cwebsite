@@ -61,7 +61,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
       <li class="active"></li>
-      <li><a href="#">Connecters and Partners</a></li>
+      <li><a href="#">Partners</a></li>
       <li><a href="#">Get Involved</a></li>
       <li><a href="#">Learning</a></li>
       <li><a href="#">Insights</a></li>
