@@ -4,8 +4,7 @@
     
 <meta charset="<?php bloginfo('charset'); ?>">
     
-  <title>
-<?php
+  <title><?php
 		      if (function_exists('is_tag') && is_tag()) {
 		         single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
 		      elseif (is_archive()) {
@@ -44,7 +43,6 @@
     
 <!—Google fonts  -->   
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
-    
 <?php wp_head(); ?> <!—very important that this is added-->
 </head>
     
@@ -55,6 +53,11 @@
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="#"></a>
         <img class="logo" alt="logo" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/logo.png">
     </div>
