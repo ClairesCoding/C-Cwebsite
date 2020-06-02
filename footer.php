@@ -19,7 +19,7 @@
     </div>
   </div>
     <div class="col-md-6 text-left">
-        <img class="footer-image" alt="logo" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/logo.png">
+        <img class="footer-image" alt="logo" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/logo.jpg">
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="#home" class="active">Home</a>
