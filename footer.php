@@ -4,9 +4,9 @@
     <div class="col-md-6 text-left">
     <p><?php bloginfo('name'); ?></p>
       <h6>CONNECT</h6>
-        <img class="icons" alt="facebook" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/facebook-icon.png">
-        <img  alt="instagram" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/instagram-icon.png">
-        <img  alt="twitter"src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/twitter-icon.png">
+        <img href="#" class="icons" alt="facebook" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/facebook-icon.png">
+        <img  href="#" alt="instagram" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/instagram-icon.png">
+        <img  href="#" alt="twitter"src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/twitter-icon.png">
     </div>
     <div class="col-md-6 text-left">
         <h7>CONTACT US</h7>
@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="#home" class="active">Home</a>
-<a href="#">Connecters and Partners</a>
+<a href="#">Partners</a>
 <a href="#">Get Involved</a>
 <a href="#">Learning</a>
 <a href="#">Insights</a>
