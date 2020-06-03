@@ -31,26 +31,21 @@ while(have_posts()) :the_post();//LOOP through all the posts and find the one th
 
     <div class="row">
 
-  <h5>LEARNING</h5>
+  <h5 class= "text-center title">LEARNING</h5>
       <div class="col-sm-6 text-center learningbg1 half">
-            
-<?php $post_id = 21;
-$queried_post = get_post($post_id);?>
-<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
-<h4><?php echo $queried_post->post_title; ?></h4>
-<?php echo $queried_post->post_excerpt; ?>
-<?php echo '<a class="btn-primary" href="'.get_permalink($queried_post).'"><br>Resources</a>';?>
-
+             <div class="coachingbox">
+                        <img class="img-responsive Cicon" alt="coaching icon" src="images/coachingicon.jpg">
+                        <p><br> Increase your skills and knowledge with our coaching sessions</p>
+                        <button type="button" class="btn btn-primary">Coaching</button>
+                    </div>
           </div>
                 
          <div class="col-sm-6 text-center learningbg2 half">
-
-<?php $post_id = 23;
-$queried_post = get_post($post_id);?>
-<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
-<h4><?php echo $queried_post->post_title; ?></h4>
-<?php echo $queried_post->post_excerpt; ?>
-<?php echo '<a class="btn-primary" href="'.get_permalink($queried_post).'"><br>Coaching</a>';?> 
+                <div class="resourcesbox">
+                    <img class="img-responsive Ricon" alt="resource icon" src="images/resources.jpg">
+                    <p>Educate yourself about training and management for NFPs</p>
+                    <button type="button" class="btn btn-primary">Resources</button>
+                </div>
                 
            
         </div>
