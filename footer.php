@@ -2,6 +2,7 @@
 <footer class="footer">
   <div class="container">
     <div class="col-md-6 text-left">
+    <p><?php bloginfo('name'); ?></p>
       <h6>CONNECT</h6>
         <img class="icons" alt="facebook" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/facebook-icon.png">
         <img  alt="instagram" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/instagram-icon.png">
@@ -18,7 +19,7 @@
     </div>
   </div>
     <div class="col-md-6 text-left">
-        <img class="footer-image" alt="logo" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/logo.png">
+        <img class="footer-image" alt="logo" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/logo.jpg">
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="#home" class="active">Home</a>
@@ -28,8 +29,6 @@
 <a href="#">Insights</a>
 <a href="#">Connect</a>
         
-    </div>
-
-    
+    </div>   
 </footer>
 <?php wp_footer(); ?>
