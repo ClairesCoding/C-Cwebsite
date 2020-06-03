@@ -50,10 +50,10 @@ $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
 <?php echo $queried_post->post_excerpt; ?>
-<?php echo '<a class="btn-primary" href="'.get_permalink($queried_post).'"><br>Coaching</a>';?> 
-                
-           
-        </div>
+<?php echo '<a class="btn-primary" href="'.get_permalink($queried_post).'"><br>Coaching</a>';?>
+
+
+</div>
         
         </div>
     </div>
