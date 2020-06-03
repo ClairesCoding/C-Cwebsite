@@ -57,4 +57,4 @@ $queried_post = get_post($post_id);?>
         
         </div>
     </div>
-o<?php get_footer(); /* Tells WordPress to include footer.php */ ?>
+<?php get_footer(); /* Tells WordPress to include footer.php */ ?>
