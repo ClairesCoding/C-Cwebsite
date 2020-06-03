@@ -31,7 +31,7 @@ while(have_posts()) :the_post();//LOOP through all the posts and find the one th
 
     <div class="row">
 
-  <h5>LEARNING</h5>
+  <h5 class="text-center title">LEARNING</h5>
       <div class="col-sm-6 text-center learningbg1 half">
             
 <?php $post_id = 21;
@@ -57,4 +57,4 @@ $queried_post = get_post($post_id);?>
         
         </div>
     </div>
-<?php get_footer(); /* Tells WordPress to include footer.php */ ?>
+o<?php get_footer(); /* Tells WordPress to include footer.php */ ?>
