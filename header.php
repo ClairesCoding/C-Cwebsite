@@ -81,15 +81,15 @@
   <div class=" text-center header-text">
     <h1><b>Creating better</b></h1>
       <h2><b>Communities</b></h2>
-    <p1>through connecting individuals and 
-        organisations</p1>
+    <p class="subhead">through connecting individuals and 
+        organisations</p>
     <button type="button" class="btn btn-primary3">Find Out More</button>
     </div>
     
         <div class="col-sm-6 text-center connectorsbg">
             <div class="connectorsbox">
         <h3>Connectors and Partners</h3>
-        <p2>Are you a business who wants to partner with other Not For Profits? Or post available opportunites?</p2>
+        <p>Are you a business who wants to partner with other Not For Profits? Or post available opportunites?</p>
             <button type="button" class="btn btn-primary"> Learn More</button>
         </div>
         </div>        
@@ -97,8 +97,8 @@
             
         <div class="col-sm-6 text-center connectorsbg">
             <div class="involvedbox">
-        <h4>Get Involved</h4>
-            <p2>Interested in finding a position? Register today and we will help you find a position.</p2>
+        <h3>Get Involved</h3>
+            <p>Interested in finding a position? Register today and we will help you find a position.</p>
             <button type="button" class="btn btn-primary"> Learn More</button>
         </div>
     </div>
