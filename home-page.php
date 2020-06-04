@@ -38,7 +38,7 @@
           <div class="coachingbox">
           <img class="img-responsive Cicon" alt=“coachingicon” src="<?php the_field('displayimage'); ?>">
             <p><?php the_field('explanationtext'); ?> </p>
-            <a href="<?php the_field('calltoactionbutton'); ?>" class="btn btn-primary">Coaching</a>
+            <a href="<?php the_field('calltoactionbutton'); ?>" class="btn btn-primary">Education</a>
           </div>
         </div>
                 
@@ -46,7 +46,7 @@
              <div class="resourcesbox">
                 <img class="img-responsive Ricon" alt=“Resourcesicon” src="<?php the_field('displayimage_copy'); ?>">
                 <p><?php the_field('explanationtext_copy'); ?> </p>
-                <a href="<?php the_field('calltoactionbutton_copy'); ?>" class="btn btn-primary">Resources</a>
+                <a href="<?php the_field('calltoactionbutton_copy'); ?>" class="btn btn-primary">Events</a>
             </div>
         </div>
         
