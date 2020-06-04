@@ -37,15 +37,15 @@
           <div class="coachingbox">
           <img class="img-responsive Cicon" alt=“coachingicon” src="<?php the_field('displayimage'); ?>">
             <p><?php the_field('explanationtext'); ?> </p>
-            <a href="<?php the_field('calltoactionbutton'); ?>" class="btn btn-primary">Resources</a>
+            <a href="<?php the_field('calltoactionbutton'); ?>" class="btn btn-primary">Coaching</a>
           </div>
         </div>
                 
          <div class="col-sm-6 text-center learningbg2 half">
              <div class="coachingbox">
                 <img class="img-responsive Ricon" alt=“Resourcesicon” src="<?php the_field('displayimage'); ?>">
-                <p><?php the_field('explanationtext'); ?> </p>
-                <a href="<?php the_field('calltoactionbutton'); ?>" class="btn btn-primary">Coaching</a>
+                <p><?php the_field('explanationtext_copy'); ?> </p>
+                <a href="<?php the_field('calltoactionbutton_copy'); ?>" class="btn btn-primary">Resources</a>
             </div>
         </div>
         
