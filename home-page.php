@@ -42,8 +42,8 @@
         </div>
                 
          <div class="col-sm-6 text-center learningbg2 half">
-             <div class="coachingbox">
-                <img class="img-responsive Ricon" alt=“Resourcesicon” src="<?php the_field('displayimage'); ?>">
+             <div class="resourcesbox">
+                <img class="img-responsive Ricon" alt=“Resourcesicon” src="<?php the_field('displayimage_copy'); ?>">
                 <p><?php the_field('explanationtext_copy'); ?> </p>
                 <a href="<?php the_field('calltoactionbutton_copy'); ?>" class="btn btn-primary">Resources</a>
             </div>
