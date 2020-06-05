@@ -119,7 +119,7 @@ h7{
 
 
 .herobg{
-    background: url(images/header.jpg);
+    background: url("images/header.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -240,7 +240,7 @@ h7{
 }
 
 .learningbg1{
-    background-image:url(images/learningbgl.jpg);
+    background-image:url("images/learningbgl.jpg");
     background-size: cover;
     padding:20%;
     padding-top: 25%;
@@ -248,7 +248,7 @@ h7{
 }
 
 .learningbg2{
-    background-image:url(images/learningbgr.jpg);
+    background-image:url("images/learningbgr.jpg");
     background-size: cover;
     padding:20%;
     padding-top: 25%;
@@ -402,7 +402,7 @@ a{
     margin-bottom: 40px;
 }
 .directorsbg{
-    background-image:url(images/about.jpg);
+    background-image:url("images/about.jpg");
     background-size: cover;
 }
 
@@ -427,7 +427,7 @@ a{
     font-size: 24px;
 }
 .directorsbg1{
-    background-image: url(images/about.jpg);
+    background-image: url("images/about.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
