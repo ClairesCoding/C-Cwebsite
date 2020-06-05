@@ -3,7 +3,7 @@
   <div class="container">
     <div class="col-md-6 text-left">
     <p><?php bloginfo('name'); ?></p>
-      <h6>CONNECT</h6>
+      <h6>CONNECT</h6><br>
         <img href="#" class="icons" alt="facebook" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/facebook-icon.png">
         <img  href="#" alt="instagram" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/instagram-icon.png">
         <img  href="#" alt="twitter"src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/twitter-icon.png">
@@ -11,10 +11,12 @@
     <div class="col-md-6 text-left">
         <h7>CONTACT US</h7>
     <p class="footer-right">
-          Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.<br>
-          Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.<br>
-          Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.<br>
-          Contact information: <a href="mailto:someone@example.com">someone@example.com</a>.
+        <br>
+        Email us at <a href="mailto:someone@example.com">collabcollective@humanitashr.com.au</a>
+        <br>
+        <br>
+        <br>
+
         </p>
     </div>
   </div>
