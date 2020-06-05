@@ -420,6 +420,10 @@ a{
 .about-container{
     margin-top: 3%;
 }
+.insight-buttons{
+    margin-top: 0%;
+    margin-bottom: 2%;
+}
 .insight-small-title2{
     text-align: center;
     color: black;
