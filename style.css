@@ -417,6 +417,9 @@ a{
 .aboutusbg{
     background-color:white;
 }
+.about-container{
+    margin-top: 3%;
+}
 .directorsbg1{
     background-image: url(images/about.jpg);
     background-size: cover;
@@ -429,7 +432,7 @@ a{
     color: black;
     background-color: white;
     width: 70%;
-    height: 320px;
+    height: 330px;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -438,7 +441,7 @@ a{
     color: black;
     background-color: white;
     width: 70%;
-    height: 320px;
+    height: 330px;
     padding-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -451,12 +454,12 @@ a{
 .director-small{
     font-size: 14px;
     color: black;
-    margin-bottom: 4%;
+    margin-bottom: 8%;
 }
 .director-small1{
-    font-size: 12px;
+    font-size: 16px;
     color: black;
-    margin-bottom:16%;
+    margin-bottom:4%;
     margin-left: 20%;
     margin-right:20%;
 }
