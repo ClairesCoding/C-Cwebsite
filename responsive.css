@@ -6,6 +6,33 @@
     .insight-small-title {
         font-size:120%;
     }
+        .whitebox1{
+    width: 85%;
+    height: 340px;
+}
+    .whitebox2{
+    width: 85%;
+    height: 340px;
+}
+    
+}
+@media only screen and (max-width: 991px) {
+            
+    .whitebox1{
+    width: 85%;
+    height: 500px;
+}
+    .whitebox2{
+    width: 85%;
+    height: 500px;
+}
+        .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+    
+       
     
 }
 @media only screen and (max-width: 900px) {
@@ -142,6 +169,18 @@
     .btn-primary3{
         margin-left: 0px;
     }
+    .director-small{
+        font-size:12px
+    }
+    .director-small1{
+        font-size:12px
+    }
+    .director-small2{
+        font-size:10px
+    }
+    .director-small3{
+        font-size:10px
+    }
 }
 
 
@@ -178,6 +217,18 @@
     
     .resourcesbox{
         height: 320px;
+    }
+        .director-small{
+        font-size:10px
+    }
+    .director-small1{
+        font-size:10px
+    }
+      .director-small2{
+        font-size:8px
+    }
+    .director-small3{
+        font-size:8px
     }
    
 }
