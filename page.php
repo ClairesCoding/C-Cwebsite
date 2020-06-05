@@ -20,7 +20,7 @@
 
    
 <?php endwhile; ?>
-	
+
 	<?php else: ?>
 	<div class="post">
 		<p>Sorry, no posts found.</p>
@@ -32,4 +32,4 @@
      </div>
     </div>
   </div>
-  <?php get_footer(); ?>
+<?php get_footer(); ?>
