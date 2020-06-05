@@ -76,30 +76,29 @@
     
     
     
-    <header class="container-fluid herobg">
+    <header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
     <div class="row">
   <div class=" text-center header-text">
-    <h1><b>Creating better</b></h1>
-      <h2><b>Communities</b></h2>
-    <p class="subhead">through connecting individuals and 
-        organisations</p>
-    <button type="button" class="btn btn-primary3">Find Out More</button>
+    <h1><?php the_field('tagline1'); ?></h1>
+      <h2><b><?php the_field('tagline2'); ?></b></h2>
+    <p class="subhead"><?php the_field('tagline3'); ?></p>
+    <a href="<?php the_field('herocta'); ?>" class="btn btn-primary3">Find out more</a>
     </div>
     
         <div class="col-sm-6 text-center connectorsbg">
             <div class="connectorsbox">
-        <h3>Connectors and Partners</h3>
-        <p>Are you a business who wants to partner with other Not For Profits? Or post available opportunites?</p>
-            <button type="button" class="btn btn-primary"> Learn More</button>
+        <h3><?php the_field('categorytitle'); ?></h3>
+        <p><?php the_field('categorytext'); ?></p>
+            <a href="<?php the_field('categorycta'); ?>" class="btn btn-primary">Learn more</a>
         </div>
         </div>        
 
             
         <div class="col-sm-6 text-center connectorsbg">
             <div class="involvedbox">
-        <h3>Get Involved</h3>
-            <p>Interested in finding a position? Register today and we will help you find a position.</p>
-            <button type="button" class="btn btn-primary"> Learn More</button>
+        <h3><?php the_field('categorytitle_copy'); ?></h3>
+            <p><?php the_field('categorytext_copy'); ?></p>
+            <a href="<?php the_field('categorycta_copy'); ?>" class="btn btn-primary">Learn more</a>
         </div>
     </div>
     </div>
