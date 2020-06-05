@@ -420,6 +420,12 @@ a{
 .about-container{
     margin-top: 3%;
 }
+.insight-small-title2{
+    text-align: center;
+    color: black;
+    font-family: 'Montserrat', sans-serif;  
+    font-size: 24px;
+}
 .directorsbg1{
     background-image: url(images/about.jpg);
     background-size: cover;
