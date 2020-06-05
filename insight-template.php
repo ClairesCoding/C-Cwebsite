@@ -11,9 +11,9 @@
 <!--INSIGHT PAGE SECTION-->
 <section class="container-fluid text-center aboutusbg">
     <div class="row about-container">
-    <h5><?php the_field('insighttitle'); ?></h5>
+    <h5>INSIGHTS</h5>
         <div class="blocker2"></div>
-        <p class="insight-small-title2"> <?php the_field('insightsmalltitle'); ?></p>
+        <p class="insight-small-title2">What does our company do?</p>
         <div class="row about-text">
         <p class="director-small"><?php the_field('insighttext'); ?></p>
         </div>
