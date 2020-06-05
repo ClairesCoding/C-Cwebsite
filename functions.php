@@ -25,3 +25,8 @@ add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 ?>
 <?php
 ?>
+<?php
+	if ( get_field(' headerbackgroundimage') ) {
+		echo 'style="background: url(' . get_field(' headerbackgroundimage') . ')"';
+	}
+?>
