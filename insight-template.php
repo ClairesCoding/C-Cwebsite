@@ -7,7 +7,6 @@
 <!--NEW SRC SERVER: http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/-->
 <?php include (TEMPLATEPATH . '/small-header.php');  /* Tells WordPress to include the smaller header header.php */ ?>
 
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
 
 <!--INSIGHT PAGE SECTION-->
 <section class="container-fluid text-center aboutusbg">
