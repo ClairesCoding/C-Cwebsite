@@ -441,7 +441,7 @@ a{
 .whitebox1{
     color: black;
     background-color: white;
-    width: 70%;
+    width: 80%;
     height: 330px;
     padding-top: 20px;
     margin-left: auto;
@@ -450,7 +450,7 @@ a{
 .whitebox2{
     color: black;
     background-color: white;
-    width: 70%;
+    width: 80%;
     height: 330px;
     padding-top: 20px;
     margin-left: auto;
@@ -474,11 +474,15 @@ a{
     margin-right:20%;
 }
 .director-small2{
-    font-size: 12px;
+    font-size: 14px;
     color: black;
+    margin-right: 2%;
+    margin-top: 2%;
 }
 .director-small3{
-    font-size: 12px;
+    font-size: 14px;
     color: black;
+    margin-right: 2%;
+    margin-top: 2%;
 
 }

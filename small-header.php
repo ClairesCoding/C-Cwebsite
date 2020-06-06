@@ -3,6 +3,12 @@
 <head>
     
 <meta charset="<?php bloginfo('charset'); ?>">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<?php bloginfo('description'); ?>">
+    
+    <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
     
   <title><?php
 		      if (function_exists('is_tag') && is_tag()) {
@@ -24,21 +30,9 @@
 ?>
 </title>
 
-<meta name="description" content="<?php bloginfo('description'); ?>">
-<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-    
-  <meta charset="utf-8">
-    
-<!—Viewport responsive  -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
-
- 
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     
-    
-
 <link rel="stylesheet" href="responsive.css"/>
     
 <!—Google fonts  -->   
