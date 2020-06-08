@@ -238,6 +238,11 @@ h7{
     background-color: transparent;
 }
 
+.wp-block-button__link has-text-color has-background{
+    background-color: !important;
+    color: !important; 
+}
+
 .title{ 
     margin-bottom: -100px;
     position: relative;
