@@ -1,9 +1,9 @@
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php include (TEMPLATEPATH . '/small-header.php');  /* Tells WordPress to include the smaller header header.php */ ?>
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
             <section class="col-sm-7 maintext">
-<h2>LATEST ARTICLES</h2>	
+<!--<h2>LATEST ARTICLES</h2>	-->
 
 
 <article class="excerpts"> <!--we can reuse the css on the old article to restyle the new dynamic posts-->
@@ -58,9 +58,9 @@
 </div>
 
 	
-    <div class="comments-template">
+    <!--<div class="comments-template">
 			<?php comments_template(); ?>
-		</div>
+		</div>-->
 		
 	<?php endwhile; ?>
 	<?php else: ?>
