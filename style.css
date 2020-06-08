@@ -223,6 +223,21 @@ h7{
     background-color: transparent;
 }
 
+.pt-cv-readmore {
+    width: 200px;
+    color: black;
+    background-color: #d5df29;
+    border-color:#d5df29;
+    
+}
+
+.pt-cv-readmore {
+     border-color: #d5df29;
+    border: 2px solid;
+    color: #d5df29;
+    background-color: transparent;
+}
+
 .title{ 
     margin-bottom: -100px;
     position: relative;
