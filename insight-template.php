@@ -63,7 +63,7 @@ Collab Collective assists not-for-profits, through a link with industry, as they
         
         <div class="whitebox2">
             <div class="col-md-4">
-            <img class="img-responsive" alt="director profilr" src="<?php the_field('insightimage'); ?>"> 
+            <img class="img-responsive" alt="director profile" src="<?php the_field('insightimage'); ?>"> 
                 </div>
             <div class="col-md-6">
         <p class="director-small3">Bianca Starcevich is a HR executive with over 20 years of experience across a range of industries. Her early career began in HR roles with Bankwest, Rio Tinto, Iluka and Wesfarmers. At Bunnings she had a number of roles, with her favourite role sitting as part of the executive team and responsible for the delivery of innovative strategies, programs and policies to support employment, development and safety of 40,000 team across Australia and New Zealand. She started Humanitas HR in 2019 which was founded with a single mission; to help individuals, teams and businesses to be at their best. Her company purpose reflects her own personal values as like Sue, Bianca realises the importance of giving back and contributing to the community. She has held many volunteer roles within the community with her current roles including Non Executive Director with 100 Women, Board Member at HLTF and Vice President for EFJCC.  Bianca is extremely passionate, dedicated and innovative in her thinking and care for others around her.</p>
