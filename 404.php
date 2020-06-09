@@ -12,7 +12,7 @@
                 <div class="col-md-3"></div>
                 
                 <div class="col-md-6 page-content">
-					<h3><?php _e( 'Oops something went missing on our end', 'twentythirteen' ); ?></h3>
+					<h4><?php _e( 'Oops something went missing on our end', 'twentythirteen' ); ?></h4>
 					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentythirteen' ); ?></p>
 
 					<?php get_search_form(); ?>
