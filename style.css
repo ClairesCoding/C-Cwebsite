@@ -224,9 +224,16 @@ h7{
 }
 
 
-.wp-block-button__link has-text-color has-background{
-    background-color: !important;
-    color: !important; 
+.wp-block-button__link{
+    background-color: none !important;
+    color: none !important;
+    font-size: 14px;
+    display: contents;
+    text-decoration: none;
+}
+
+.wp-block-button__link:hover{
+    text-decoration:none;
 }
 
 .title{ 
