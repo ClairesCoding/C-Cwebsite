@@ -183,7 +183,7 @@ h7{
 .blocker {
     width: 310px;
     height: 2px;
-    background-color: greenyellow;
+    background-color: #c1d704;
     margin-bottom: 40px;
 }
 
@@ -223,20 +223,6 @@ h7{
     background-color: transparent;
 }
 
-.pt-cv-readmore {
-    width: 200px;
-    color: black;
-    background-color: #d5df29;
-    border-color:#d5df29;
-    
-}
-
-.pt-cv-readmore {
-     border-color: #d5df29;
-    border: 2px solid;
-    color: #d5df29;
-    background-color: transparent;
-}
 
 .wp-block-button__link has-text-color has-background{
     background-color: !important;
