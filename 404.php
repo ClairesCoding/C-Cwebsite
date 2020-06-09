@@ -7,13 +7,17 @@
 				<h1 class="page-title"><?php _e( 'Not Found', 'twentythirteen' ); ?></h1>
 			</header>
 
-			<div class="page-wrapper">
-				<div class="page-content">
-					<h2><?php _e( 'This is somewhat embarrassing, isn’t it?', 'twentythirteen' ); ?></h2>
+			<div class="page-wrapper row">
+				
+                <div class="col-md-3"></div>
+                
+                <div class="col-md-6 page-content">
+					<h3><?php _e( 'Oops something went missing on our end', 'twentythirteen' ); ?></h3>
 					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'twentythirteen' ); ?></p>
 
 					<?php get_search_form(); ?>
 				</div><!-- .page-content -->
+                <div class="col-md-3"></div>
 			</div><!-- .page-wrapper -->
 
 		</div><!-- #content -->
