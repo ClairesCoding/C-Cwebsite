@@ -243,24 +243,11 @@ h7{
     text-decoration:none;
 }
 
-div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
-    
-    background-color: #d5df29;
-    border-radius: 12px;
-    color: #333;
-    font-size: 1em;
-    padding: 10px 15px;
-    border-color: #d5df29;
-    width: 100px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
-
 div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button{
     background-color: #d5df29;
     border-radius: 12px;
     color: #333;
-    font-size: 1em;
+    font-size: 14px;
     padding: 10px 15px;
     border-color: #d5df29;
     width: 100px;
