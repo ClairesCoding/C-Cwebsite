@@ -246,7 +246,7 @@ h7{
 div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button{
     background-color: #d5df29;
     border-radius: 12px;
-    color: #333;
+    color: black;
     font-size: 14px;
     padding: 10px 15px;
     border-color: #d5df29;
