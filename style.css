@@ -1,9 +1,9 @@
 /*   
 Theme Name: Collaborate & Conquer Wordpress Site
-Theme URI: http://joshwhitkin.com
+Theme URI: http://http://www.collabcollective.com.au
 Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
 Author: Claire Domasz, Nina Tomas, Grayce Bond
-Author URI: http://joshwhitkin.com
+Author URI: http://http://www.collabcollective.com.au
 Version: 1
 */ 
 
@@ -183,7 +183,7 @@ h7{
 .blocker {
     width: 310px;
     height: 2px;
-    background-color: greenyellow;
+    background-color: #c1d704;
     margin-bottom: 40px;
 }
 
@@ -223,25 +223,53 @@ h7{
     background-color: transparent;
 }
 
-.pt-cv-readmore {
-    width: 200px;
-    color: black;
-    background-color: #d5df29;
-    border-color:#d5df29;
-    
+/*WORDPRESS FORMS AND BUTTONS*/
+
+.wp-block-button__link{
+    background-color: none !important;
+    color: none !important;
+    font-size: 14px;
+    display: contents;
+    text-decoration: none;
 }
 
-.pt-cv-readmore {
-     border-color: #d5df29;
+.wp-block-button__link:hover{
+    text-decoration:none;
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button {
+    
+    background-color: #d5df29;
+    border-radius: 12px;
+    color: #333;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-color: #d5df29;
+    width: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button:hover{
+    border-color: #d5df29;
     border: 2px solid;
     color: #d5df29;
     background-color: transparent;
+    
 }
 
-.wp-block-button__link has-text-color has-background{
-    background-color: !important;
-    color: !important; 
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
 }
+
+wpforms-title{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+
 
 .title{ 
     margin-bottom: -100px;

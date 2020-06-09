@@ -49,6 +49,10 @@
 
 @media only screen and (max-width: 768px) {
     
+    .logo {
+    width: 20%;
+    }
+    
     .herobg{
         background-position: -300px;
     }
