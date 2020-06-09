@@ -1,9 +1,9 @@
 /*   
 Theme Name: Collaborate & Conquer Wordpress Site
-Theme URI: http://joshwhitkin.com
+Theme URI: http://http://www.collabcollective.com.au
 Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
 Author: Claire Domasz, Nina Tomas, Grayce Bond
-Author URI: http://joshwhitkin.com
+Author URI: http://http://www.collabcollective.com.au
 Version: 1
 */ 
 
@@ -223,6 +223,7 @@ h7{
     background-color: transparent;
 }
 
+/*WORDPRESS FORMS AND BUTTONS*/
 
 .wp-block-button__link{
     background-color: none !important;
@@ -255,6 +256,25 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
     color: #d5df29;
     background-color: transparent;
     
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+wpforms-title{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+a{
+    color: black;
+    padding: 4px;
+    margin-top: 2%;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 
