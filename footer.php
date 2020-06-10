@@ -2,21 +2,22 @@
 <footer class="footer">
   <div class="container">
     <div class="col-md-6 text-left">
-        <h6>LINKS</h6><br>
-          <a href="file:///C:/Users/tomas/Desktop/Website/C-Cwebsite/index.html" class="active footerlinks">BLOG AND ARTICLES</a><br>
-          <a href="#" class="active footerlinks">PODCAST</a><br>
-          <a href="#" class="active footerlinks">EDUCATION</a><br>
-        <a href="#" class="active footerlinks">PRIVACY POLICY</a><br>
-          <a href="#" class="active footerlinks">EVENTS</a><br><br>
+        <h6><?php bloginfo('title1'); ?>LINKS</h6><br>
+          <a href="file:///C:/Users/tomas/Desktop/Website/C-Cwebsite/index.html" class="active footerlinks"><?php bloginfo('blogandarticles'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php bloginfo('podcast'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php bloginfo('education'); ?></a><br>
+        <a href="#" class="active footerlinks"><?php bloginfo('privacypolicy'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php bloginfo('events'); ?></a><br><br>
 
     </div>
     <div class="col-md-6 text-left">
-        <h6>CONNECT WITH US</h6>
+        <h6><?php bloginfo('title2'); ?></h6>
     <p class="footer-right">
         <br>
-     <a href="mailto:someone@example.com" class="active footerlinks">collabcollective@humanitashr.com.au</a><br>
-        <p class="linkedinname"><a href="https://au.linkedin.com/in/biancastarcevich" class="active footerlinks"><img class="icons" alt="LinkedIn" src="images/linkedin.png"></a>Bianca Starcevich</p>
-        <p class="linkedinname"><a href="https://au.linkedin.com/in/sue-pember-6b969b20" class="active footerlinks"><img class="icons" alt="LinkedIn" src="images/linkedin.png"></a>Sue Pember</p><br>
+     <a href="collabcollective@humanitashr.com.au" class="active footerlinks"><?php bloginfo('email'); ?></a><br>
+        <p class="linkedinname"><a href="<?php the_field('linkedin1'); ?>" class="active footerlinks"><img class="icons" alt="LinkedIn" src="<?php the_field('displayimage1'); ?>"></a><?php bloginfo('director1'); ?></p>
+        
+        <p class="linkedinname"><a href="<?php the_field('linkedin2'); ?>" class="active footerlinks"><img class="icons" alt="LinkedIn" src="<?php the_field('displayimage2'); ?>"></a><?php bloginfo('director2'); ?></p><br>
         
 
         
@@ -26,15 +27,14 @@
         <img class="footer-image" alt="logo" src="/images/logo.jpg">
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
-<a href="#home" class="active">Home</a>
-<a href="#">Get Involved</a>
-<a href="#">Insights</a>
-<a href="#">Learning</a>
-<a href="#">Connect</a>
+<a href="<?php the_field('homelink'); ?>" class="active"><?php bloginfo('home'); ?></a>
+<a href="<?php the_field('getinvolvedlink'); ?>"><?php bloginfo('getinvolved'); ?></a>
+<a href="<?php bloginfo('insightslink'); ?>"><?php bloginfo('insights'); ?></a>
+<a href="<?php bloginfo('learninglink'); ?>"><?php bloginfo('learning'); ?></a>
+<a href="<?php bloginfo('connectlink'); ?>"><?php bloginfo('connect'); ?></a>
         
     </div>
 
     
 </footer>
-
 <?php wp_footer(); ?>
