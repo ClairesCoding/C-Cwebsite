@@ -28,3 +28,12 @@ add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 		echo 'style="background: url(' . get_field(' headerbackgroundimage') . ')"';
 	}
 ?>
+<?php
+       register_sidebar( array(
+        'name'          => 'Mylogo',
+        'id'            => 'logo',
+        'before_widget'  => '<div>',
+		'after_widget'   => '</div>',
+	) );
+?>
+
