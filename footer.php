@@ -15,8 +15,8 @@
     <p class="footer-right">
         <br>
      <a href="mailto:someone@example.com" class="active footerlinks">collabcollective@humanitashr.com.au</a><br>
-        <p class="linkedinname"><a href="https://au.linkedin.com/in/biancastarcevich" class="active footerlinks"><img class="icons" alt="LinkedIn" src="images/linkedin.png"></a><?php the_field('director1'); ?></p>
-        <p class="linkedinname"><a href="https://au.linkedin.com/in/sue-pember-6b969b20" class="active footerlinks"><img class="icons" alt="LinkedIn" src="images/linkedin.png"></a><?php the_field('director2'); ?></p><br>
+        <p class="linkedinname"><a href="https://au.linkedin.com/in/biancastarcevich" class="active footerlinks"><img class="icons" alt="LinkedIn" src="<?php the_field('director1'); ?>"></a>Bianca Starcevich</p>
+        <p class="linkedinname"><a href="https://au.linkedin.com/in/sue-pember-6b969b20" class="active footerlinks"><img class="icons" alt="LinkedIn" src="<?php the_field('director2'); ?>"></a>Sue Pember</p><br>
         
 
         
