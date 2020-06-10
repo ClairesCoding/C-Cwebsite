@@ -50,31 +50,19 @@
     
 
     
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"></a>
-        <img class="logo" alt="logo" src="http://www.collabcollective.com.au/wp-content/themes/C-Cwebsite/images/logo.jpg">
+<nav class="navbar ">
+     <div>
+        <div class="navbar-header image-float">   
+<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('logo') ) : endif; ?>
+        </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-<?php wp_nav_menu(array(
-        'menu' => 'Top menu',
-        'items_wrap'=>'%3$s',
-        'container' => false,
-        'list_item_class' => "nav-item",
-        'link_class' => "nav-link",
-        )); ?>
-</ul>
-
-  </div>
-    </div>
+    <div class="nav-colour">
+        <div class="save-space">
+<?php wp_nav_menu( array( 'theme_location' => 'max_mega_menu_1' ) ); ?>
+        </div>
+ </div>
 </nav>
+
     
     
     
