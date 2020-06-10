@@ -69,7 +69,7 @@ h6{
     font-family: 'Montserrat', sans-serif;
     color: black;
     font-weight: 700;
-    margin-left: 24%
+    margin-left: 1%
 }
 h7{
     font-size: 12px;
@@ -412,7 +412,6 @@ img{
   bottom: 0;
   width: 100%;
   background-color: #50c38b;
-  color: white;
   text-align: center;
     font-family: 'Montserrat', sans-serif; 
 }
@@ -440,7 +439,13 @@ a{
 
 
 .icons{
-    margin-left:20%
+ 
+}
+.footerlinks {
+    color: white;
+}
+.linkedinname{
+    
 }
 
 /*CONNECTORS PAGE*/
