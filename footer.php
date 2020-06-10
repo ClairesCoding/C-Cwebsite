@@ -3,11 +3,11 @@
   <div class="container">
     <div class="col-md-6 text-left">
         <h6><?php the_field('header1'); ?></h6><br>
-          <a href="#" class="active footerlinks">BLOG AND ARTICLES</a><br>
-          <a href="#" class="active footerlinks">PODCAST</a><br>
-          <a href="#" class="active footerlinks">EDUCATION</a><br>
-          <a href="#" class="active footerlinks">PRIVACY POLICY</a><br>
-          <a href="#" class="active footerlinks">EVENTS</a><br><br>
+          <a href="#" class="active footerlinks"><?php the_field('blogarticleslink'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php the_field('podcastslink'); ?>PODCAST</a><br>
+          <a href="#" class="active footerlinks"><?php the_field('educationlink'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php the_field('privacylink'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php the_field('eventslink'); ?>EVENTS</a><br><br>
 
     </div>
     <div class="col-md-6 text-left">
