@@ -3,7 +3,7 @@
   <div class="container">
     <div class="col-md-6 text-left">
         <h6><?php the_field('header1'); ?></h6><br>
-          <a href="#" class="active footerlinks"><?php the_field('blogarticleslink'); ?></a><br>
+          <a href="#" class="active footerlinks"><?php the_field('blogarticleslink'); ?>BLOG AND ARTICLES</a><br>
           <a href="#" class="active footerlinks"><?php the_field('podcastslink'); ?></a><br>
           <a href="#" class="active footerlinks"><?php the_field('educationlink'); ?></a><br>
           <a href="#" class="active footerlinks"><?php the_field('privacylink'); ?></a><br>
