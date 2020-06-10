@@ -124,21 +124,6 @@ h7{
 
 /*MEGA MENU */
 
-#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1{
-    text-align: right;
-    background-color: white;
-    
-}
-
-#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item > a.mega-menu-link {
-        color: #9d9d9d;
-}
-
-#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item > a.mega-menu-link:hover{
-    color: black;
-    background-color: white;
-}
-
 .image-float {
      position: absolute;
     left: 40px;
