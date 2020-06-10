@@ -284,7 +284,7 @@ div.wpforms-container-full .wpforms-form .wpforms-field-label {
     
 }
 
-wpforms-title{
+div.wpforms-container-full .wpforms-form .wpforms-title{
    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
