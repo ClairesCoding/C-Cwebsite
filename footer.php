@@ -4,7 +4,7 @@
     <div class="col-md-6 text-left">
         <h6><?php the_field('header1'); ?></h6><br>
           <a href=" http://www.collabcollective.com.au/insight/blog/" class="active footerlinks"><?php the_field('blogarticleslink'); ?>BLOG AND ARTICLES</a><br>
-          <a href="#" class="active footerlinks"><?php the_field('podcastslink'); ?>PODCASTS</a><br>
+          <a href="<?php the_field('podcastslink'); ?>" class="active footerlinks">PODCASTS</a><br>
           <a href="#" class="active footerlinks"><?php the_field('educationlink'); ?>EDUCATION</a><br>
           <a href="#" class="active footerlinks"><?php the_field('privacylink'); ?>PRIVACY POLICY</a><br>
           <a href="#" class="active footerlinks"><?php the_field('eventslink'); ?>EVENTS</a><br><br>
