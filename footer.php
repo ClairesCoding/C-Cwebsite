@@ -28,11 +28,11 @@
         <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('logo') ) : endif; ?>
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
-<a href="#home" class="active">Home</a>
-<a href="#">Get Involved</a>
-<a href="#">Insights</a>
-<a href="#">Learning</a>
-<a href="#">Connect</a>
+<a href="<?php the_field('homelink'); ?>http://www.collabcollective.com.au/" class="active">Home</a>
+<a href="<?php the_field('involvelink'); ?>http://www.collabcollective.com.au/home-page/sample-page-2/">Get Involved</a>
+<a href="<?php the_field('insightslink'); ?>http://www.collabcollective.com.au/insight-template-test/">Insights</a>
+<!--<a href="#">Learning</a>-->
+<a href="<?php the_field('connectlink'); ?>http://www.collabcollective.com.au/connect/">Connect</a>
         
     </div>
 
