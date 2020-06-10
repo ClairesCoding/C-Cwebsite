@@ -77,7 +77,7 @@
     
         <div class="col-sm-6 text-center connectorsbg">
             <div class="connectorsbox">
-        <h3><?php the_field('categorytitle'); ?></h3>
+        <h3 class="white-text"><?php the_field('categorytitle'); ?></h3>
         <p class="white-text"><?php the_field('categorytext'); ?></p>
             <a href="<?php the_field('categorycta'); ?>" class="btn btn-primary">Learn more</a>
         </div>
@@ -86,7 +86,7 @@
             
         <div class="col-sm-6 text-center connectorsbg">
             <div class="involvedbox">
-        <h3><?php the_field('categorytitle_copy'); ?></h3>
+        <h3 class="white-text"><?php the_field('categorytitle_copy'); ?></h3>
             <p class="white-text"><?php the_field('categorytext_copy'); ?></p>
             <a href="<?php the_field('categorycta_copy'); ?>" class="btn btn-primary">Learn more</a>
         </div>
