@@ -17,47 +17,10 @@
 			<?php the_content(); ?>
 		</div><!--postcomtet-->
 						
-		<div class="content-band">
-			<span class="postmeta-category"><?php the_category(', '); ?></span>
-			<span class="postmeta-comments"><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></span>
-			
-		</div><!--content-band-->
+		<!--content-band-->
 	</div><!--post class-->
-    <div class="related-template">
-	<h3>RELATED POSTS</h3>
-	<ul class="rel-list">
-		<?php
-		$backup = $post; //Backup current post object
-		$current = $post->ID;  //get current post id 
-								
-		global $post;
-
-		//Fetch categories of current post
-		$counter = 0;
-		$allcats = '';
-		foreach ((get_the_category()) as $cat) {
-			if ($counter > 0) $allcats .= ',';
-			$allcats .= $cat->cat_ID;
-			$counter++;
-		}
-		
-	$myposts = get_posts('numberposts=3&order=DESC&category=');
-        foreach ($myposts as $post) :
-			setup_postdata($post);
-			?>
-		<li>
-			<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>" rel="bookmark"><?php the_title(); ?></a>
-			<span class="related-posts-date"><?php the_time('F jS, Y'); ?></span>
-		</li>
-		<?php endforeach;
-								
-		$post = $backup; //restore current post object
-		wp_reset_query();
-		?>
-	</ul>
-</div>
-
-	
+    
+	<!--related post template goes here-->
 <!--    <div class="comments-template">-->
 			
 		
