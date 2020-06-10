@@ -48,9 +48,18 @@ p{
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: 500;
+    
+
+}
+
+.white-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
     color: white;
 
 }
+
 
 
 h5{
