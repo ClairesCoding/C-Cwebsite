@@ -23,7 +23,7 @@
     </div>
   </div>
     <div class="col-md-6 text-left">
-        <img class="footer-image" alt="logo" src="/images/logo.jpg">
+        <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('logo') ) : endif; ?>
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="#home" class="active">Home</a>
