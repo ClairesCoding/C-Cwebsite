@@ -4,10 +4,10 @@
     <div class="col-md-6 text-left">
         <h6><?php the_field('header1'); ?></h6><br>
           <a href="#" class="active footerlinks"><?php the_field('blogarticleslink'); ?></a><br>
-          <a href="#" class="active footerlinks"><?php the_field('podcastslink'); ?>PODCAST</a><br>
+          <a href="#" class="active footerlinks"><?php the_field('podcastslink'); ?></a><br>
           <a href="#" class="active footerlinks"><?php the_field('educationlink'); ?></a><br>
           <a href="#" class="active footerlinks"><?php the_field('privacylink'); ?></a><br>
-          <a href="#" class="active footerlinks"><?php the_field('eventslink'); ?>EVENTS</a><br><br>
+          <a href="#" class="active footerlinks"><?php the_field('eventslink'); ?></a><br><br>
 
     </div>
     <div class="col-md-6 text-left">
