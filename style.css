@@ -126,6 +126,13 @@ h7{
     width: 60%;
 }
 
+.image-float {
+     position: absolute;
+    left: 40px;
+    top: 10px;
+    z-index: 1;
+}
+
 
 .herobg{
     background: url("images/header.jpg");
@@ -252,7 +259,7 @@ h7{
     text-decoration:none;
 }
 
-.div.wpforms-container-full .wpforms-form button[type=submit]{
+.wpforms-submit{
     background-color: #d5df29;
     border-radius: 12px;
     color: black;
@@ -266,7 +273,7 @@ h7{
 }
 
 
-.div.wpforms-container-full .wpforms-form button[type=submit]:hover{
+.wpforms-submit:hover{
     border-color: #d5df29;
     border: 2px solid;
     color: #d5df29;
