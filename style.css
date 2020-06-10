@@ -292,6 +292,7 @@ div.wpforms-container-full .wpforms-form .wpforms-title{
 .wpforms-confirmation-container-full{
     border: 2px solid #d5df29;
     color: black;
+    background: transparent;
 }
 
 
