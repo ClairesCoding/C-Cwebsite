@@ -243,7 +243,7 @@ h7{
     text-decoration:none;
 }
 
-div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button{
+ .wpforms-page-button{
     background-color: #d5df29;
     border-radius: 12px;
     color: black;
@@ -257,7 +257,7 @@ div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-contain
 }
 
 
-div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button:hover{
+ .wpforms-page-button:hover{
     border-color: #d5df29;
     border: 2px solid;
     color: #d5df29;
