@@ -127,7 +127,6 @@ h7{
 .image-float {
      position: absolute;
     left: 30px;
-    top: 5px;
     z-index: 1;
 }
 
