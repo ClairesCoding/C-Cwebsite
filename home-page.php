@@ -20,7 +20,7 @@
              <div class="blocker"></div>
              <p class="insight-small-title"><?php the_field('insightsmalltitle'); ?></p>
              <p class="insight-text"><?php the_field('insighttext'); ?></p>
-             <a href="<?php the_field('calltoactionbutton'); ?>" class="btn btn-default">Read More</a>
+             <a href="<?php the_field('insightcta'); ?>" class="btn btn-default">Read More</a>
              
             
         </div>
