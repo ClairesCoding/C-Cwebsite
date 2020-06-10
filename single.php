@@ -17,12 +17,8 @@
 			<?php the_content(); ?>
 		</div><!--postcomtet-->
 						
-		<div class="content-band">
-			<span class="postmeta-category"><?php the_category(', '); ?></span>
-			<span class="postmeta-comments"><?php comments_popup_link('0 Comments', '1 Comment', '% Comments'); ?></span>
-			
-		</div><!--content-band-->
-	</div><!--post class-->
+            <!--content-band-->
+	<!--post class-->
 <!--    <div class="related-template">- was here->
 	
 
