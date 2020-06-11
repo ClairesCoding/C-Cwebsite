@@ -224,6 +224,9 @@ h7{
     text-align: left;
     color: black;
 }
+.directorimage{
+    margin-bottom:5%;
+}
 
 .btn-default{
     display: block;
