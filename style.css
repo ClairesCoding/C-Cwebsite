@@ -606,8 +606,10 @@ a{
 .screen-reader-text {
     margin-bottom: 30%;
 }
-.input#searchsubmit:hover{
-    display: block;
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
     margin: 0 auto;
     margin-top: 20px;
     border-radius: 12px;
@@ -619,5 +621,6 @@ a{
     border: 2px solid;
     color: #d5df29;
     background-color: transparent;
+    margin-left:5%;
 }
 
