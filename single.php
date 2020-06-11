@@ -10,7 +10,7 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 	<div <?php post_class(); ?>>
-		
+		<h2 class="" id="post-<?php the_ID(); ?>"></h2>
 
 		<div class="postcontent">
 			<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
