@@ -35,8 +35,9 @@ h3{
 
 }
 
-.posttitle h3{
-    display: none;
+
+#post-94 .posttitle h3{
+    display:none !important;
 }
 
 h4{
@@ -564,4 +565,8 @@ a{
     margin-right: 2%;
     margin-top: 2%;
 
+}
+.editor-post-title__input{
+        display:none !important;
+    
 }
