@@ -5,10 +5,7 @@ Description: A style-free theme to get you started on an HTML5-based Wordpress t
 Author: Claire Domasz, Nina Tomas, Grayce Bond
 Author URI: http://http://www.collabcollective.com.au
 Version: 1
-*/ 
-
-Save this style.css
-
+*/
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
@@ -37,13 +34,8 @@ h3{
     
 
 }
-.disappear{
-    display: none;
-}
-.title{
-    display: none;
-}
-.posttile h3{
+
+.posttitle h3{
     display: none;
 }
 
