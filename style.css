@@ -6,6 +6,10 @@ Author: Claire Domasz, Nina Tomas, Grayce Bond
 Author URI: http://http://www.collabcollective.com.au
 Version: 1
 */
+html {
+    overflow-x: hidden;
+    width: 101%;
+}
 h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;

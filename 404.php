@@ -1,4 +1,6 @@
-<?php include (TEMPLATEPATH . '/small-header.php');  /* Tells WordPress to include the smaller header header.php */ ?>
+<?php include (TEMPLATEPATH . '/small-header.php');  /*
+    Template Name:404-template
+    Tells WordPress to include the smaller header header.php */ ?>
 
 <div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
@@ -17,7 +19,7 @@
 
 					<?php get_search_form(); ?>
 				</div><!-- .page-content -->
-                <div class="col-md-3"></div>
+                <div class="col-md-3"></div><b></b><br>
 			</div><!-- .page-wrapper -->
 
 		</div><!-- #content -->
