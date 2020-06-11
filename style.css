@@ -301,6 +301,23 @@ div.wpforms-container-full .wpforms-form .wpforms-title{
     background: transparent;
 }
 
+#submit {
+    display: block;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: 200px;
+    color: black;
+    background-color: #d5df29;
+    border-color:#d5df29; 
+}
+
+#submit:hover {
+border-color: #d5df29;
+    border: 2px solid;
+    color: #d5df29;
+    background-color: transparent;
+}
+
 
 .title{ 
     margin-bottom: -100px;
