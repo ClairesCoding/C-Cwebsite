@@ -19,7 +19,7 @@
 
 					<?php get_search_form(); ?>
 				</div><!-- .page-content -->
-                <div class="col-md-3"></div><b></b><br>
+                <div class="col-md-3 screen-reader-text"></div>
 			</div><!-- .page-wrapper -->
 
 		</div><!-- #content -->
