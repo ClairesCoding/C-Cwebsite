@@ -37,6 +37,9 @@ h3{
     
 
 }
+.editor-post-title__input{
+        display: none;
+}
 
 h4{
     font-family: 'Montserrat', sans-serif;
