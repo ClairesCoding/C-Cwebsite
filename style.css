@@ -603,3 +603,6 @@ a{
         display:none !important;
     
 }
+.screen-reader-text {
+    margin-bottom: 50%;
+}
