@@ -29,8 +29,8 @@
     
     
 <!--LEARNING SECTION-->
-<div class="container learningbg"> <a href="#learning"></a>
-
+<div class="container learningbg">
+    <a id="learning"></a>
     <div class="row">
         <h5 class= "text-center title"><?php the_field('sectionheader'); ?></h5>
         
