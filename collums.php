@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: 3 grid 
+    Template Name: Wide Template
     */
     ?>
 
