@@ -2,7 +2,7 @@
 <footer class="footer">
   <div class="container">
     <div class="col-md-6 text-left">
-        <h6><?php the_field('header1'); ?></h6><br>
+        <h6><?php the_field('header1'); ?>LINKS</h6><br>
           <a href="<?php the_field('blogarticleslink'); ?>http://www.collabcollective.com.au/insight/blog/" class="active footerlinks">BLOG AND ARTICLES</a><br>
           <a href="<?php the_field('podcastslink'); ?>http://www.collabcollective.com.au/podcast-2/" class="active footerlinks">PODCASTS</a><br>
           <a href="<?php the_field('educationlink'); ?>http://www.collabcollective.com.au/home-page/learning/" class="active footerlinks">LEARNING</a><br>
@@ -12,10 +12,10 @@
 
     </div>
     <div class="col-md-6 text-left">
-        <h6><?php the_field('header2'); ?></h6>
+        <h6><?php the_field('header2'); ?>CONNECT WITH US</h6>
     <p class="footer-right">
         <br>
-     <a href="mailto:someone@example.com" class="active footerlinks">collabcollective@humanitashr.com.au</a><br>
+     <a href="collabcollective@humanitashr.com.au" class="active footerlinks">collabcollective@humanitashr.com.au</a><br>
         
         <p class="linkedinname"><a href="<?php the_field('director1'); ?>https://au.linkedin.com/in/biancastarcevich" class="active footerlinks"><img class="icons" alt="LinkedIn" src="http://www.collabcollective.com.au/wp-content/uploads/2020/06/linkedin.png"></a>Bianca Starcevich</p>
        
