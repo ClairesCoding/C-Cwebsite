@@ -15,7 +15,7 @@
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 			
 <div class="post single-page">
-		<h3 class="posttitle" id="post-<?php the_ID(); ?>"><?php the_title(); ?></h3>
+		
 
 		<div class="postcontent">
 			<?php /*?><?php the_post_thumbnail(array(150,150), array ('class' => 'alignright')); ?><?php */?>
