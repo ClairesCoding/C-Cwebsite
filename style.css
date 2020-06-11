@@ -600,7 +600,9 @@ a{
     color: black;
     margin-right: 2%;
     margin-top: 2%;
-
+}
+.directorimage{
+    background-image: url("images/directorsimage.png");
 }
 .editor-post-title__input{
         display:none !important;
@@ -626,4 +628,6 @@ button, html input[type=button], input[type=reset], input[type=submit] {
     background-color: transparent;
     margin-left:5%;
 }
-
+.email{
+    color:white;
+}
