@@ -43,7 +43,7 @@ h3{
 .title{
     display: none;
 }
-.posttile{
+.posttile h3{
     display: none;
 }
 
