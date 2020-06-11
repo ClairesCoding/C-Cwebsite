@@ -15,7 +15,7 @@
         <h6><?php the_field('header2'); ?>CONNECT WITH US</h6>
     <p class="footer-right">
         <br>
-     <a href="collabcollective@humanitashr.com.au" class="active footerlinks">collabcollective@humanitashr.com.au</a><br>
+     <a href="http://www.collabcollective.com.au/connect/">collabcollective@humanitashr.com.au</a>
         
         <p class="linkedinname"><a href="<?php the_field('director1'); ?>https://au.linkedin.com/in/biancastarcevich" class="active footerlinks"><img class="icons" alt="LinkedIn" src="http://www.collabcollective.com.au/wp-content/uploads/2020/06/linkedin.png"></a>Bianca Starcevich</p>
        
@@ -30,11 +30,11 @@
     </div>
     <div class="col-md-6 text-center collapse navbar-collapse footer-small">
 <a href="<?php the_field('homelink'); ?>http://www.collabcollective.com.au/" class="active">Home</a>
-<a href="<?php the_field('involvelink'); ?>http://www.collabcollective.com.au/home-page/sample-page-2/">Get Involved</a>
+<a href="<?php the_field('involvelink'); ?>http://www.collabcollective.com.au/home-page/get-involved/">Get Involved</a>
 <a href="<?php the_field('insightslink'); ?>http://www.collabcollective.com.au/insight-template-test/">Insights</a>
 <!--<a href="#">Learning</a>-->
 <a href="<?php the_field('connectlink'); ?>http://www.collabcollective.com.au/connect/">Connect</a>
-<a href="<?php the_field('partnerslink'); ?>http://www.collabcollective.com.au/home-page/events/" class="active footerlinks">Partners</a><br><br>       
+<a href="<?php the_field('partnerslink'); ?>http://www.collabcollective.com.au/home-page/partners-page/" >Partners</a><br><br>
     </div>
 
     
