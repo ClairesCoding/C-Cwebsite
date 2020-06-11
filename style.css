@@ -38,9 +38,12 @@ h3{
 
 }
 .disappear{
-        display: none;
+    display: none;
 }
 .title{
+    display: none;
+}
+.posttile{
     display: none;
 }
 
