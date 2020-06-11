@@ -22,6 +22,10 @@
     
 	<!--related post template goes here-->
 <!--    <div class="comments-template">-->
+    
+    <div class="comments-template">
+			<?php comments_template(); ?>
+		</div>
 			
 		
 	<?php endwhile; ?>
