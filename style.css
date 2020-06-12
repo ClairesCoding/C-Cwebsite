@@ -335,6 +335,7 @@ border-color: #d5df29;
 
 #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-menu-item > a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-menu-ancestor > a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item.mega-current-page-ancestor > a.mega-menu-link {
     background: #fff;
+    color: rgb(157, 157, 157) !important;
     font-weight: normal;
     text-decoration: none;
     border-color: #fff;
