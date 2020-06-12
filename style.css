@@ -345,6 +345,10 @@ border-color: #d5df29;
     font-weight: 500;
 }
 
+#mega-menu-wrap-max_mega_menu_1, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 ul.mega-sub-menu, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 li.mega-menu-item, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 li.mega-menu-row, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 li.mega-menu-column, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 a.mega-menu-link, #mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 span.mega-menu-badge {
+    font-weight: 500;
+}
+
 .title{ 
     margin-bottom: -100px;
     position: relative;
