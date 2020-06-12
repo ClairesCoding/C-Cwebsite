@@ -4,10 +4,10 @@
     <div class="col-md-6 text-left">
         <h6><?php the_field('header1'); ?>LINKS</h6><br>
           <a href="<?php the_field('blogarticleslink'); ?>http://www.collabcollective.com.au/insight/blog/" class="active footerlinks">BLOG AND ARTICLES</a><br>
-          <a href="<?php the_field('podcastslink'); ?>http://www.collabcollective.com.au/podcast-2/" class="active footerlinks">PODCASTS</a><br>
+        <a href="<?php the_field('eventslink'); ?>http://www.collabcollective.com.au/home-page/events/" class="active footerlinks">EVENTS</a><br>
           <a href="<?php the_field('educationlink'); ?>http://www.collabcollective.com.au/home-page/learning/" class="active footerlinks">LEARNING</a><br>
-          <a href="<?php the_field('privacylink'); ?>http://www.collabcollective.com.au/privacy-policy/" class="active footerlinks">PRIVACY POLICY</a><br>
-          <a href="<?php the_field('eventslink'); ?>http://www.collabcollective.com.au/home-page/events/" class="active footerlinks">EVENTS</a><br><br>
+        <a href="<?php the_field('podcastslink'); ?>http://www.collabcollective.com.au/podcast-2/" class="active footerlinks">PODCASTS</a><br>
+        <a href="<?php the_field('privacylink'); ?>http://www.collabcollective.com.au/privacy-policy/" class="active footerlinks">PRIVACY POLICY</a><br><br>
           
 
     </div>
